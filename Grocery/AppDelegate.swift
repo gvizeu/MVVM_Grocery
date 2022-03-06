@@ -21,8 +21,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             .start()
         return true
     }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        GroseryDataStorage.eraseData()
-    }
 }
