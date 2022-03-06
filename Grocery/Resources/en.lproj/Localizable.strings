@@ -1,0 +1,12 @@
+/* 
+  localized.strings
+  Grocery
+
+  Created by Gonzalo Vizeu on 6/3/22.
+  
+*/
+
+"GROCERY_TITLE_LIST" = "Hi, shop your favourites.";
+"CHECK_OUT_TITLE" = "Shopping basket";
+"CHECKOUT_BUTTON_TITLE" = "Checkout (%@)";
+

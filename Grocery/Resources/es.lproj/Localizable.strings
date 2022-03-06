@@ -1,0 +1,11 @@
+/* 
+  localized.strings
+  Grocery
+
+  Created by Gonzalo Vizeu on 6/3/22.
+  
+*/
+
+"GROCERY_TITLE_LIST" = "Hola, compra tus favoritos.";
+"CHECK_OUT_TITLE" = "Cesta de la compra";
+"CHECKOUT_BUTTON_TITLE" = "Pagar (%@)";

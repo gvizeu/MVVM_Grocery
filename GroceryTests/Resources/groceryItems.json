@@ -1,0 +1,50 @@
+[
+    {
+        "id": 4348398,
+        "name": "Yogurt",
+        "price": 5.3,
+        "type": "dairy"
+    },
+    {
+        "id": 387438,
+        "name": "Bananas",
+        "price": 1.4,
+        "type": "fruit"
+    },
+    {
+        "id": 2983984,
+        "name": "Oranges",
+        "price": 2.0,
+        "type": "fruit"
+    },
+    {
+        "id": 1738474,
+        "name": "Sausages",
+        "price": 7.12,
+        "type": "meat"
+    },
+    {
+        "id": 7348398,
+        "name": "Milk",
+        "price": 2.3,
+        "type": "dairy"
+    },
+    {
+        "id": 3493893,
+        "name": "Chicken wings",
+        "price": 5.3,
+        "type": "meat"
+    },
+    {
+        "id": 712398,
+        "name": "Cheese",
+        "price": 1.3,
+        "type": "dairy"
+    },
+    {
+        "id": 8397843,
+        "name": "Pears",
+        "price": 1.0,
+        "type": "fruit"
+    }
+]
