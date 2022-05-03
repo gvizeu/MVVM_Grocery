@@ -63,14 +63,15 @@ class GroceryItemListTests: XCTestCase {
     }
 
     func test_get_data_from_db_when_fetch_data_multiple_times() {
-        sleep(5)
         sut.fetchData()
         guard let lastRefreshDate = sut.model.value.itemsType.first?.items.first?.timestamp,
-              let timeDiff = Calendar.current.dateComponents([.second], from: lastRefreshDate, to: Date()).second else {
+              let timeDiff = Calendar.current.dateComponents([.nanosecond],
+                                                             from: lastRefreshDate,
+                                                             to: Date()).nanosecond else {
                   XCTFail("Could not get refresh date")
                   return
               }
-       XCTAssertGreaterThan(timeDiff, 4)
+       XCTAssertGreaterThan(timeDiff, 1)
     }
 
     fileprivate func getFirstItem() -> GroceryItemViewModel? {
